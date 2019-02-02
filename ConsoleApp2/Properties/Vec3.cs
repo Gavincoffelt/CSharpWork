@@ -22,11 +22,9 @@ namespace ConsoleApp2
         }
         public Vec3 Difference(Vec3 vec)
         {
-
             x = x - vec.x;
             y = y - vec.y;
             z = z - vec.z;
-
             return vec;
 
         }
@@ -36,7 +34,6 @@ namespace ConsoleApp2
             {
                 return x * x + y * y + z * z;
             }
-
         }
         public Vec3 Normalize
         {
@@ -55,6 +52,5 @@ namespace ConsoleApp2
         {
             return (x * vec.x) + (y + vec.y) + (z * vec.z);
         }
-
     }
 }
